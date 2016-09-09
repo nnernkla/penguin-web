@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<!--Fig. 13.8: focusblur.html-->
+<!--Demonstrating the focus and blur events.-->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>A Form Using focus and blur</title>
+		<link rel = "stylesheet" type = "text/css" href = "homework2stylesheet.css">
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src = "member.js"></script>
+		<!--script src="finialproject.js"></script-->
+	</head>
+
+	<body>
+		<!--form id = "myForm" action = "register.html" name="cathyform"><!--form has an id or name myform the action taken are string-->
+		<form id="myForm" action="register.html" method="get">		
+		<p><label class="fixed" for="name">Name:</label><!--It place in paragraph class where its fixed for the name-->
+		<input type="text" id="name" name="name" placeholder="Enter name"></p><!--input will be a text with id call name as an placeholder 
+																			attribute that explain what value place in-->
+		
+		<p>
+		<br><label class="fixed " for="email">E-mail:</label>
+		<input type="text" id="email" name="email" placeholder="Enter e-mail address"></p>
+		
+		<p><label>Click here if you like this site
+		<input type="checkbox" id="chbx" name="chbx"></label></p>
+		
+		<p><label for="comments">Any comments?</p>
+		<textarea id="comments" placeholder="Enter comments here" name="comments"></textarea>
+		
+		<p><input type="submit" id="submit" name="submit" value="Submit"/>
+		<p><input id="reset" type="reset"/></p>
+		</form>
+		<p id = "helpText"></p>
+	</body>
+	<input type="button" name="MainPage button" onclick="location.href='homepage.html'" value="click here to vist Home Page">
+
+</html>
