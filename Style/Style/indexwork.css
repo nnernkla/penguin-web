@@ -1,0 +1,11 @@
+﻿body, sidebarA, header, section, nav, footer{
+	display:block;
+}
+body{
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	margin-left:430px;
+	margin-top:30px;
+}
+body p{
+	margin-left:150px;
+}

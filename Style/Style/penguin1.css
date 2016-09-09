@@ -1,0 +1,170 @@
+﻿body, sidebarA, header, section, nav, footer{
+	display:block;
+}
+body{
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	margin: 10px 130px 10px 130px;
+}
+header{
+	float:left;
+	margin-top:15px;
+	border:3px grey solid;
+	background-color:#CBEDF6;
+	width:1080px;
+}
+#home{
+	float:right;
+	margin-top:15px;
+	margin-right:15px;
+}
+
+sidebarA{
+	margin-top:15px;
+	clear:both;
+	float:left;
+}
+#sidePic{
+	float:left;
+}
+article{
+	float:left;
+	width:400px;
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#song{
+	clear:both;
+	float:left;
+	/*margin-left:10px;*/
+	width:325px;
+	background-color:#424242;
+	border:thin gray solid;
+}
+sidebarB{
+	float:right;
+	margin-right:40px;
+	margin-top:10px;
+}
+section{
+	float:left;
+}
+/*#nav_bar ul{
+	margin-top:20px;
+	width:1048px;
+	list-style:none;
+	padding:0 1em;	
+	background-color:#1D1D1D;
+}
+#nav_bar li{
+	display:inline;
+	padding:0 3em 0 1em;
+}
+#nav_bar a{
+	padding: 1em 2em;
+	color:white;
+	border-right:2px solid white;
+	text-decoration:none;
+}*/
+
+#navMenu
+{
+	clear:both;
+	margin-top:15px;
+	padding:0;
+	line-height:30px;
+}
+
+#navMenu ul
+{
+	margin:0;
+	padding:0;
+	
+}
+#navMenu li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	/*background-color:#C0E7F6;*/
+	background-color:#1D1D1D;
+
+}
+#navMenu ul li a
+{
+	text-align:center;
+	font-family:"Comic Sans Ms",cursive;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block;
+	color:white;
+	border:1px #FFFFFF solid;
+	
+}
+
+#navMenu ul ul
+{
+	position:absolute;
+	visibility:hidden;
+	top: 32px;
+}
+	
+#navMenu ul li:hover ul
+{
+	visibility:visible;
+}	
+	
+#navMenu li:hover
+{
+	background:grey;
+}
+
+#navMenu ul li:hover ul li a:hover
+{
+	background:gray;
+	color:black;
+}
+
+#navMenu a:hover
+{
+	color:black;
+}
+.clearFloat
+{
+	clear:both;
+}
+footer{
+	margin-top:10px;
+	clear:both;
+	float:left;
+	width:1080px;
+	height:150px;
+	background-color:#C0E7F6;
+	color:gray;
+	font-style:italic;
+}
+footer a{
+	color:gray;
+}
+#created{
+	text-align:center;
+}
+#reference{
+	margin-left:30px;
+	width:300px;
+}
+#links{
+	float:left;
+	margin-top:-128px;
+	margin-left:300px;
+	width:400px;	
+}
+#links2{
+	float:right;
+	margin-top:-128px;
+	margin-right:20px;
+}

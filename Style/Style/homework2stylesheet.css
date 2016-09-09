@@ -1,0 +1,75 @@
+﻿/*Let created a css external style sheet*/
+/*the page setting */
+header{
+	float:left;
+	margin-top:15px;
+	border:3px grey solid;
+	background-color:#CBEDF6;
+	width:1325px;
+	margin-bottom:20px;
+}
+#pageName{
+	margin-left:0 px;
+}
+
+#home{
+	float:right;
+	margin-top:15px;
+	margin-right:15px;
+}
+#body/*the body of the webpage*/
+{
+ 	background:gray;
+  		
+}
+#tab{
+	margin-top:60px;
+}
+table tr td/*this is for the table*/
+{
+	
+	background: lightblue;	
+}
+tbody th
+{
+	
+	background: lightblue;
+}
+div/*the paragraph inside the table*/
+{
+	margin-top: 15px;
+	margin-bottom: 50px;
+	margin-left:5px;	
+	margin-right:10px;
+	padding:15px;
+	font-size:12px;
+	color:black;
+}
+ul/*this is for the list*/
+{
+	list-style-type:square; 
+	font-size:12px;
+	
+}
+#upperheader
+{
+	text-align:center; 
+	font-size: 20px; 
+	color:blue;
+	margin-top:25px;
+	margin-bottom: 50px;
+	margin-right:10px;
+	margin-left:15px;
+	padding:15px;
+}
+#lowerheader1/*this is the header2 */
+{
+	text-align: center; 
+	font-size: 15px; 
+	color:blue;
+	padding:15px;
+}
+#img
+{
+	float: left;
+}
